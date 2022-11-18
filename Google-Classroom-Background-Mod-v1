@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         Google Classroom Background Mod v1
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Change the background color of google classroom.
+// @author       You
+// @match        https://classroom.google.com/u/1/h
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    document.body.style.background = "black";
+})();
